@@ -19,6 +19,7 @@ How to get started:
 3) sign up to each site:
 
 http://flowbitcoin.com/?ref=1029650
+
 http://15bit.eu/?ref=251448
 
 4) play macro on each site for as long as you want. 
