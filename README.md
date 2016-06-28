@@ -1,5 +1,7 @@
 # btcbot
-macro for flowbitcoin and 15bit.eu
+macro for flowbitcoin and 15bit.eu, more coming
+
+
 
 Hi all,
 
@@ -16,8 +18,8 @@ How to get started:
 
 3) sign up to each site:
 
-[url]http://flowbitcoin.com/?ref=1029650[/url]
-[url]http://15bit.eu/?ref=251448[/url]
+http://flowbitcoin.com/?ref=1029650
+http://15bit.eu/?ref=251448
 
 4) play macro on each site for as long as you want. 
 
