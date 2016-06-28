@@ -5,16 +5,17 @@ macro for flowbitcoin and 15bit.eu, more coming
 
 Hi all,
 
-I wrote 2 quick macros (use imacros extension for firefox or chrome) that have averaged 70,000 satoshi a day. These work on both 15bit.eu and flowbitcoin.
+I wrote 2 quick macros that have averaged 70,000 satoshi a day. These work on both 15bit.eu and flowbitcoin.
 
 You will get higher returns with flowbitcoin, where the faucet is every minute.
 
 How to get started:
 
-1) get imacros extension for your browser.
+1) get imacros extension for your browser.  I've only used it in firefox and chrome.
 
-2) download these macros
+2) download the macros from my github:
 
+https://github.com/thatEngineer/btcbot
 
 3) sign up to each site:
 
