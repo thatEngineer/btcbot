@@ -1,0 +1,15 @@
+﻿SET !LOOP -9999999
+SET !VAR1 915
+
+	'EVAL("var randomNumber=Math.floor(Math.random()*100 + 60); randomNumber;")'
+	
+	TAB T=1
+	'Wait a random number (1 to 5) of seconds
+	SET randomnumber EVAL("Math.floor(Math.random()*5 + 1);")
+	URL GOTO=http://15bit.eu/collect.php
+	
+	
+	TAB T=1
+	' waits 60 to 100 seconds
+	TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:collect_r.php ATTR=NAME:submit
+	WAIT SECONDS={{!VAR1}}

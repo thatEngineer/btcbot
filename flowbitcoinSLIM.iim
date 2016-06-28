@@ -1,0 +1,19 @@
+﻿VERSION BUILD=8961227 RECORDER=FX
+
+SET !LOOP -9999999
+SET !VAR1 54
+'EVAL("var randomNumber=Math.floor(Math.random()*100 + 60); randomNumber;")'
+
+TAB T=1
+URL GOTO=http://flowbitcoin.com/collect.php
+'Wait a random number (1 to 5) of seconds
+SET randomnumber EVAL("Math.floor(Math.random()*5 + 1);")
+WAIT SECONDS={{randomnumber}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:collect_r.php ATTR=NAME:submit
+WAIT SECONDS={{randomnumber}}
+TAB T=2
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:article_p.php ATTR=NAME:submit
+WAIT SECONDS={{randomnumber}}
+TAB CLOSE
+' waits 60 to 100 seconds
+WAIT SECONDS={{!VAR1}}
