@@ -4,7 +4,7 @@ macro for flowbitcoin and 15bit.eu, more coming
 
 Hi all,
 
-I wrote 2 quick macros that have averaged 70,000 satoshi a day. These work on both 15bit.eu and flowbitcoin.
+I wrote 2 macros that have averaged 70,000 satoshi a day. These work on both 15bit.eu and flowbitcoin.
 
 You will get higher returns with flowbitcoin, where the faucet is every minute.
 
